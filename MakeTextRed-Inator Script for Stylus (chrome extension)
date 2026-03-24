@@ -1,0 +1,31 @@
+/* Active tab highlight */
+.tab.active {
+    border: 2px solid #ff0000 !important;
+    box-shadow: 0 0 6px #ff0000 !important;
+}
+
+/* Hover effect */
+.tab:hover {
+    border: 1px solid #ff4444 !important;
+}
+
+/* Toolbar separator line */
+.toolbar {
+    border-bottom: 1px solid #ff0000 !important;
+}
+
+/* Optional: subtle red glow on tab bar */
+.tab-bar {
+    box-shadow: 0 0 10px #550000 inset !important;
+}
+body {
+    background: red !important;
+}
+html, body {
+
+    background: #000 !important;
+    color: #ff0000 !important;
+}
+a {
+    color: #ff4444 !important;
+}
